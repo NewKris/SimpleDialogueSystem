@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d5e7a5c62bb4e02882e011a4a39a2c0, type: 3}
+  m_Name: Mock Dialogue
+  m_EditorClassIdentifier: 
+  dialogueNodes:
+  - rid: 3805682711642767360
+  - rid: 3805682711642767361
+  - rid: 3805682711642767362
+  - rid: 3805682711642767363
+  references:
+    version: 2
+    RefIds:
+    - rid: 3805682711642767360
+      type: {class: TextNode, ns: Dialogue.Nodes, asm: Assembly-CSharp}
+      data:
+        nodeSummary: 'Speaker  1: Lorem ipsum dolor sit amet, consectetu...'
+        speaker: Speaker  1
+        text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua.
+    - rid: 3805682711642767361
+      type: {class: TextNode, ns: Dialogue.Nodes, asm: Assembly-CSharp}
+      data:
+        nodeSummary: 'Speaker 2: Ut enim ad minim veniam, quis nostrud e...'
+        speaker: Speaker 2
+        text: Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+          nisi ut aliquip ex ea commodo consequat.
+    - rid: 3805682711642767362
+      type: {class: TextNode, ns: Dialogue.Nodes, asm: Assembly-CSharp}
+      data:
+        nodeSummary: Duis aute irure dolor in reprehenderit in voluptat...
+        speaker: 
+        text: Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+          dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    - rid: 3805682711642767363
+      type: {class: ChoiceNode, ns: Dialogue.Nodes, asm: Assembly-CSharp}
+      data:
+        nodeSummary: 'Choice 1 | Choice 2 | '
+        choices:
+        - text: Choice 1
+          branch: {fileID: 11400000, guid: 967daf020c84d3140aceab202c9c3c21, type: 2}
+        - text: Choice 2
+          branch: {fileID: 11400000, guid: cbcf7dd3def1821428ef1aea59f06e63, type: 2}

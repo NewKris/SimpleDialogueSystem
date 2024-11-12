@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b08a96e8c926429da02e14be95903183, type: 3}
+  m_Name: Branch 2
+  m_EditorClassIdentifier: 
+  dialogueNodes:
+  - rid: 3805682711642767365
+  references:
+    version: 2
+    RefIds:
+    - rid: 3805682711642767365
+      type: {class: TextNode, ns: Dialogue.Nodes, asm: Assembly-CSharp}
+      data:
+        nodeSummary: 'Speaker 2: Quis autem vel eum iure reprehenderit q...'
+        speaker: Speaker 2
+        text: Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse
+          quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo
+          voluptas nulla pariatur?
